@@ -22,7 +22,9 @@ body{
 .principal{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain;   
+    background-size: contain;  
+    alingn-items: center;
+    text 
 }
 
 .container{
@@ -38,6 +40,7 @@ body{
     color:var(--branco-principal);
     display:block;
     text-decoration: none;
+    margin-bottom: lem;
 }
 
 .botao__secundario{
@@ -48,4 +51,41 @@ body{
 .container__aviso{
     font-size:12px;
     color:var(--cinza-secundario);
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: lem 0 2em 0;
+}
+
+.container__caixa{
+    margin: o 6em
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.segundario{
+    align-items: center;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size; 48px;
+    calor: var( - -brenco-principal);
+    margin-bottom: 0.lem;
+}
+
+.descricao__texto{
+    color: var( - -cinza-secundario);
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: lem;
 }
