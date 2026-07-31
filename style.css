@@ -22,9 +22,9 @@ body{
 .principal{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain;  
-    alingn-items: center;
-    text 
+    background-size: contain;
+    align-items: center;
+    text-align: center;   
 }
 
 .container{
@@ -40,7 +40,7 @@ body{
     color:var(--branco-principal);
     display:block;
     text-decoration: none;
-    margin-bottom: lem;
+    margin-bottom: 1em;
 }
 
 .botao__secundario{
@@ -59,33 +59,38 @@ body{
 }
 
 .container__imagem{
-    margin: lem 0 2em 0;
+    margin:1em 0 2em 0;
 }
 
 .container__caixa{
-    margin: o 6em
+    margin: 0 6em;
 }
 
 .secundario__imagem{
     width: 80%;
 }
 
-.segundario{
+.secundario{
     align-items: center;
+    margin: 0 10em;
 }
 
 .descricao__titulo{
     font-weight: 700;
-    font-size; 48px;
-    calor: var( - -brenco-principal);
-    margin-bottom: 0.lem;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
 }
 
 .descricao__texto{
-    color: var( - -cinza-secundario);
+    color: var(--cinza-secundario);
 }
 
 .secundario__botao{
     display: inline-block;
-    margin-top: lem;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
 }
